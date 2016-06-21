@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, arial, sans-serif;
+}
+
+h1{
+    color: #555;
+}
+
+
+#github {
+    font-weight: bold;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+}
+
+#github:hover{
+    background-color: green;
+    color: white;
+}
