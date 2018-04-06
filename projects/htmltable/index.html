@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Table</title>
     <style>
-        table, th, td{
+        table,
+        th,
+        td {
             width: 200px;
             border: 1px solid black;
             border-collapse: collapse;
@@ -14,33 +17,29 @@
         }
     </style>
 </head>
+
 <body>
-    ​<h1>Country and Population</h1>		
+    <h1>Country and Population</h1>
     <table>
-		<thead>
-			<tr>
-				<th>Country</th>
-				<th>Population (million)</th>
-			</tr>
-        </thead>
-        <tfoot>
+        <thead>
             <tr>
-                <th>TOTAL</th>
-                <th>63.5</th>
+                <th>Country</th>
+                <th>Population (million)</th>
             </tr>
-        </tfoot>
-		<tbody>
-			<tr>
-				<td>South Africa</td>
-				<td>17 </td>
-			</tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>South Africa</td>
+                <td>17 </td>
+            </tr>
             <tr>
                 <td>Zimbabwe</td>
                 <td>12</td>
             </tr>
             <tr>
                 <td>Angola</td>
-                <td>15</td>	
+                <td>15</td>
             </tr>
             <tr>
                 <td>DRC</td>
@@ -55,7 +54,13 @@
                 <td>2.5</td>
             </tr>
         </tbody>
-        
-    </table>		    
+        <tfoot>
+            <tr>
+                <th>TOTAL</th>
+                <th>63.5</th>
+            </tr>
+        </tfoot>
+    </table>
 </body>
+
 </html>
