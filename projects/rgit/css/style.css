@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Calibri';
+}
+
+.header{
+    width: 800px;
+    background-size: 400px;   
+}
+
+.header img{
+    width: 40%;
+}
+
+.searchbox input{
+    float: right;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.navigation{
+    display: block;
+    float: left;
+    margin: auto;
+}
+
+.container{
+    padding: 10px 0;
+    margin: auto;
+    width: 1138px;
+    box-sizing: border-box;
+}
+
+.main-list{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.main-list li{
+    font-weight: bold;
+    padding: 0;
+    width: 162.3px;
+    float: left;
+    height: 40px;
+    background-color:#002080;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+}
+
+.main-list li:hover{
+    background-color: #E7C549 ;
+}
+
+.main-list  {
+    word-wrap: break-word;    
+}
+
+.main-list:hover{
+    color: #001040;
+}
+.main-list li a:hover{
+    color: #001040;
+}
+
+.main-list li ul li{
+    display: none;
+    position: relative;
+}
+
+ul li:hover ul li {
+    display: block;
+    background-color: #001040;
+}
+
+ul li:hover  #prog-text{
+    color: #001040;
+}
+
+li a{    
+    color: #C2A25A;
+    text-decoration: none;
+    display: block;
+}
+
+.programs li a:hover{
+    background-color: #FFBF00;
+    color: white;
+}
+
+ul li .programs:hover{
+    color: #001040;
+    
+}
+
+.programs li  a:hover{
+    color: white;
+}
+
+#banner{
+    clear: both;
+    margin-top: 120px;
+}
+
+#banner img{
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+#main-text{
+    float: left;
+}
+
+.heading{
+    color: #E7C549;
+}
+
+.one{
+    margin: 10px;
+    text-align: center;
+}
+#list-items{
+    padding: 20px;
+}
+
+
+
+/*Media Page*/
+
+.media{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 120px 0px 120px 0px;
+}
+
+#video-player{
+    float: left;
+    width: 45%;
+    margin-right: 50px;
+}
+
+#social-media{
+    float: left;
+    width: 45%;
+    margin: 20px;
+
+}
+
+.icon{
+    float: left;
+    width: 120px;
+    margin-left: 20px;    
+}
+
+/*Payment Methods Page*/
+
+#payment-methods{    
+    float: left;
+    margin: 30px 0px 20px 0px;
+    
+}
+
+#body-text{
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+#payment-icons{
+    margin-top: 50px;
+}
+
+#payment-icons img{
+    float: left;
+    width:30%;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+
+/*Programs page*/
+
+#programs-list{
+    margin-top: 130px;
+}
+
+#programs-list div{
+    height: 200px;
+    width: 600px;
+    margin: 60px 0 40px 0;
+}
+
+
+/*Apply Now Page*/
+
+.form{
+    float: left;
+    margin-top: 30px;
+/*    padding: 5px;*/
+    width: 60%;
+    
+}
+
+.text-input{
+    float: left;
+    width: 100%;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+}
+
+.label{
+    float: left;
+    padding: 6px 0 6px 0;
+    margin-top: 2px;
+}
+
+.course{
+    float: left;      
+    width: 100%;
+    padding: 5px;
+    display: block;
+}
+
+.course select{
+    float: right;
+    display: block;
+    width: 70%;
+    padding: 6px;
+    position: relative;
+    left: 10px;
+    margin-top: 5px;
+}
+
+#identification{
+    float: left;    
+    width: 100%;
+    padding: 5px;
+}
+
+.radio{
+    margin-left: 90px;
+}
+
+#gender{
+    float: left;    
+    width: 100%;
+    padding: 5px;
+}
+
+#gender .radio{
+    margin-left: 162px;
+}
+
+#population-group .label{
+    margin-left: 5px;
+}
+
+#population-group select{    
+    float: right;
+    display: block;
+    width: 69%;
+    padding: 6px;
+    position: relative;
+    left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+
+}
+
+#nationality{
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+
+#textarea{
+    float: left;
+    width: 100%;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+    
+}
+
+#send-button{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+/*Footer*/
+
+.footer{
+    float: left;
+    margin:  10px 0;
+    width: 100%;
+    color: #FFBF00;
+        background-color: #001040;
+
+}
+
+.footer p{
+    text-align: center;
+    line-height: 40px;
+}
