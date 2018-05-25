@@ -3,9 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* 
+@font-face{
+    font-family: Calligraffitti;
+    src: url('Calligraffitti/Calligraffitti-Regular.ttf');
+} */
 
 body{
-    font-family: 'Calibri';
+    font-family: sans-serif;
 }
 
 .header{
