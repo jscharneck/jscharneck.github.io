@@ -22,7 +22,7 @@ var colors = [
 ];
  
 var gravity = 1;
-var friction = 0.99;
+var friction = 0.995;
 //event listeners
 addEventListener("mouseover", function(event){
     mouse.x = event.clientX;
@@ -97,7 +97,7 @@ var ball;
 var ballArray = [];
 function init(){
     ballArray = [];
-    for(var i = 0; i < 400; i++)
+    for(var i = 0; i < 300; i++)
     {
         var radius = randomIntFromRange(8, 20);
 
