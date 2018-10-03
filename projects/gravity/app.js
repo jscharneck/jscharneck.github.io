@@ -22,7 +22,7 @@ var colors = [
 ];
  
 var gravity = 1;
-var friction = 0.96;
+var friction = 0.99;
 //event listeners
 addEventListener("mouseover", function(event){
     mouse.x = event.clientX;
