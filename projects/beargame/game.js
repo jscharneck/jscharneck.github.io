@@ -4,6 +4,9 @@ class Game{
 		this.canvas = document.getElementById("game");
 		this.context = this.canvas.getContext("2d");
 		this.lastRefreshTime = Date.now();
+
+		this.height = window.innerHeight;
+		
 		this.sinceLastSpawn = 0;
 		this.sprites = [];
 		this.score = 0;
