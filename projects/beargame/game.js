@@ -6,6 +6,7 @@ class Game{
 		this.lastRefreshTime = Date.now();
 
 		this.height = window.innerHeight;
+		this.width =  window.innerWidth;
 		
 		this.sinceLastSpawn = 0;
 		this.sprites = [];
